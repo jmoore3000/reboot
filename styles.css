@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #9655ff;
+    
+}
+
+.logo{
+    font-size: 45px;
+    color: #FFAC6E;
+}
+
+.anchors{
+    display: flex;
+    margin:0 10% 0 auto;
+    align-items: center;
+    color: #FFAC6E;
+    font-size: 24px;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}   
