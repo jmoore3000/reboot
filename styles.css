@@ -65,12 +65,11 @@ body{
     box-shadow: ;
 }
 #devdesc{
-    border: 4px;
-    border-style: solid;
+    border: 2px solid rgba(21, 11, 109, 0.25);
     border-radius: 8px;
-    border-color: #150b6da2;
     margin: 0 60% 0 5%;
     padding:0 2% 0 2%;
+    box-shadow: 5px 5px 17px rgba(21, 11, 109, 0.45);
 }
 
 #services > h1{
