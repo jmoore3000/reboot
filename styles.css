@@ -5,6 +5,7 @@ body{
     font-family: 'M PLUS 1', sans-serif;
 }
 
+/* header with logo and anchors */
 #header{
     display: flex;
     border-bottom: 3px solid black;
@@ -20,7 +21,7 @@ body{
 
 .anchors{
     display: flex;
-    margin:0 10% 0 auto;
+    margin:0 5% 0 auto;
     align-items: center;
     color: #2112a1a2;
     font-size: 24px;
@@ -31,6 +32,7 @@ body{
     text-decoration: none;
 }
 
+/* cover image with tag line */
 #cover{
     height: 550px;
     width: 100%;
@@ -55,4 +57,23 @@ body{
 #tag > p{
     font-size: 24px;
     padding: 0 0 0 3%;
+}
+
+/* services section */
+#services{
+    
+    box-shadow: ;
+}
+#devdesc{
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #150b6da2;
+    margin: 0 60% 0 5%;
+    padding:0 2% 0 2%;
+}
+
+#services > h1{
+    text-align: center;
+    color: #150b6da2;
 }
