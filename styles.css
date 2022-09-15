@@ -67,9 +67,10 @@ body{
     display: block;
 	width: 98%;
 	align-items: center;
-    justify-content;: center   
-    box-shadow: ;
+     
+   
 }
+/*row 1 formatting*/
 #serv_row1{
     display: flex;
     width: 98%;
@@ -78,9 +79,26 @@ body{
     display: inline;
     width: 40%;
     float: left;
-    margin: 0 2% 0 5%;
+    margin: 0 2% 4% 5%;
 }
 #serv_row1_col2{
+    display: inline;
+    width: 40%;
+    float: left;
+    margin: 0 2% 4% 2%;
+}
+/*row2 formatting*/
+#serv_row2{
+    display: flex;
+    width: 98%;
+}
+#serv_row2_col1{
+    display: inline;
+    width: 40%;
+    float: left;
+    margin: 0 2% 0 5%;
+}
+#serv_row2_col2{
     display: inline;
     width: 40%;
     float: left;
@@ -92,9 +110,82 @@ body{
     padding:0 2% 0 2%;
     box-shadow: 5px 5px 17px rgba(21, 11, 109, 0.45);
 }
+br.clearfix{
+	clear:both;
+	display:block;
+	height:1px;
+	margin:-1px 0 0 0;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+#closing{
+    width: 30%;
+    font-size: 28px;
+    margin: 0 5% 0 3%;
+}
 
 
-#services > h1{
-    text-align: center;
-    color: #150b6da2;
+/*contact form styling*/
+#overlay{
+    width: 36%;
+    margin: 0 0 0 10%;
+}
+#contactForm{
+    max-width: 500px;
+    /*margin: 2rem auto;*/
+    border: 2px solid rgba(21, 11, 109, 0.25);
+    box-shadow: 5px 5px 17px rgba(21, 11, 109, 0.45);
+    border-radius: 8px;
+    padding: 3rem;
+    background-color: white;
+}
+
+.center{
+    background-color: white;
+}
+label{
+    display: block;
+    padding: 1rem 0 .5rem;
+    font-size: 16px;
+    background-color: white;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    border: 2px solid #4F5D75;
+    border-radius: 8px;
+    padding:.5rem;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+#sendBtn{
+    
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color:rgba(21, 11, 109, 0.45)
+     ; 
+    padding: .5rem;
+    margin: 1rem 0;
+    width: auto;
+    cursor: pointer;
+    transition: .3sec background-color ease;
+}
+
+#sendBtn:hover{
+    background-color: rgba(52, 39, 173, 0.25);
+}
+
+.error{
+    color: red;
+
+}
+
+.error-border{
+    border: 1px solid red;
 }

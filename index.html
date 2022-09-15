@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&display=swap" rel="stylesheet"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
 </head>
 <body>
 
@@ -33,7 +34,7 @@
     <div id="cover">
         <div id="tag">
             <h1>We are here to help you </br> grow your business</h1>
-            <p>Let us use our skills to help you turn</br> new leads into new clients</p>
+            <p>Let us use our skills to help you turn</br> your leads into new clients</p>
         </div>    
     </div>
   
@@ -50,26 +51,75 @@
             <div id="serv_row1_col2" class="ad_box row_cont" >
                 <h2>UI Optimization</h2>
                 <p>Wether you need the user interface on your current site tweaked or compleatly revamped, we are here to work with you to create a design that will attract new customers and help your site make the sale.</p>
-            </div>    
+            </div>  
+            
+            <br class="clearfix">
         </div>
-<!--services row 2 containing e-mail marketing and web hosting ads
+<!--services row 2 containing e-mail marketing and web hosting ads-->
         <div id="serv_row2">
             <div id="serv_row2_col1" class="ad_box">
                 <h2>E-mail Marketing</h2>
-                <p></p>
+                <p>Let us help you interact with your customers and keep them engaged with your company and your products.  E-mail marketing can help you to buld and maintain an active relationship with your customers. Inform them of new products, sales, and direct them to your website and your social media pages. We can help you design attractive, effective newsletter templates that will function and look good on all of the big e-mail clients. </p>
             </div>    
 
             <div id="serv_row2_col2" class="ad_box">
                 <h2>Web Hosting</h2>
-                <p></p>
-            </div>  
+                <p>Do you frequently make changes to your web site, are you tired of making all of those changes in house?  Then drop us a line, we can help you maintain your site by adding the content that will be informative to your clients, and attract new customers.  Are you building a new site that you'd like to publish? We can help you get your site up and running with anyone of the many hosting services out there. </p>
+            </div> 
+            
+            <br class="clearfix">
         </div>
            
     </div>
--->
+
     <!--contact us-->
+    <h1 class="sub_heading">Let's Talk</h1>
     <div id="contact">
+        <!--contact us section containing description and email form--> 
+        <div id="closing">
+            <p>Do you have a project that you would like us to help you with? If so, we'd love to get in touch with you and talk about how we can meet you and your companys needs, lets talk!
+            </p>
+            <br>
+            <h3>Contact us By:</h3>
+            <p>Telephone: (207)-930-0733</p>
+            <p>Address: P.O. Box ###
+            <br>Frankfort, ME.</br> 
+                04438
+            </p>
+        </div>
         
-    </div>
+        <div id="overlay">
+            <form id="contactForm" onsubmit="event.preventDefault(); validateForm()">
+              
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" placeholder="First Name">
+                <small class="error"></small>
+
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName" placeholder="Last Name">
+                <!--<small class="error"></small> -->
+
+                <label for="telephone">Telephone Number: </label>
+                <input type="tel" id="telephone" placeholder="Telephone Number">
+                <!--<small class="error"></small> -->
+
+                <label for="email">Your E-mail: </label>
+                <input type="email" id="email" placeholder="Your E-mail">
+                <small class="error"></small>
+
+                <label for="message">Message: </label>
+                <textarea style="resize:none" id="message" placeholder="Your Message" rows="6"></textarea>
+                <small class="error"></small>
+
+                <!--submit button-->
+                <div class="center">
+                    <input id="sendBtn" type="submit" value="Send Message"> 
+                    <p style="color: green;" id="success"></p>
+                </div>    
+            </form>
+        </div>
+    </div>  
+    <script src="java.js"></script> 
+    
 </body>
 </html>
