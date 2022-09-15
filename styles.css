@@ -61,6 +61,7 @@ body{
 .sub_heading{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 /* services section */
 #services{
@@ -189,3 +190,65 @@ input, textarea{
 .error-border{
     border: 1px solid red;
 }
+
+/* media exceptions */ 
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (max-width: 959px) {
+	#contact{
+        flex-direction:column; 
+        align-items: center;
+    }
+    
+    #closing{
+        width: 98%; 
+        text-align: center;
+        margin: 0 0 5% 0;
+    }
+    #overlay{
+        width: 70%;
+        margin: 0 5% 5% 0;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+	#closing{
+        margin: 0 20% 0 20%;
+    }
+    #overlay{
+        margin: 0 0 5% 0;
+    }
+}
+/*
+@media only screen and (max-width: 479px) {
+	#body{width:100%;}
+	.empCol1Cont{width:98%}
+	.empCol2Cont{width:98%}
+	.empCol1Cont input{width:100%;}
+	.empCol2Cont input{width:100%;}
+	.empiCol1Cont{width:98%}
+	.empiCol2Cont{width:98%}
+	.empiCol1Cont input{width:100%;}
+	.empiCol2Cont input{width:100%;}
+	#emp1_row1_col2{padding-top:10px;}
+	#emp1_row6_col2{display:none;}
+
+	.pers_col1{width: 98%;}
+	.pers_col2{width: 98%;}
+	.pers_col1 input{width: 100%;}
+	.pers_col2 input{width: 100%;}
+
+	#emergency input[type=text]{width:98%;}
+	#emergency input[type=tel]{width:98%;}
+	#education input[type=text]{width: 98%;}
+	
+	.schl_name{width: 100%;}
+	.schl_row_1{display: flex; flex-direction: column; width: 98%;}
+	.schl_row_2{display: flex; flex-direction: column; width: 98%;}
+	.graduate{display: flex; flex-direction:column; width: 98%;}
+}
+
+/*
