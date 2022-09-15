@@ -58,19 +58,41 @@ body{
     font-size: 24px;
     padding: 0 0 0 3%;
 }
-
+.sub_heading{
+    display: flex;
+    justify-content: center;
+}
 /* services section */
 #services{
-    
+    display: block;
+	width: 98%;
+	align-items: center;
+    justify-content;: center   
     box-shadow: ;
 }
-#devdesc{
+#serv_row1{
+    display: flex;
+    width: 98%;
+}
+#serv_row1_col1{
+    display: inline;
+    width: 40%;
+    float: left;
+    margin: 0 2% 0 5%;
+}
+#serv_row1_col2{
+    display: inline;
+    width: 40%;
+    float: left;
+    margin: 0 2% 0 2%;
+}
+.ad_box{
     border: 2px solid rgba(21, 11, 109, 0.25);
     border-radius: 8px;
-    margin: 0 60% 0 5%;
     padding:0 2% 0 2%;
     box-shadow: 5px 5px 17px rgba(21, 11, 109, 0.45);
 }
+
 
 #services > h1{
     text-align: center;
